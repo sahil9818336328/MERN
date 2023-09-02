@@ -657,7 +657,7 @@ const Register = () => {
             id='name'
             name='name'
             className='form-input'
-            defaultValue='john'
+            defaultValue='sahil'
             required
           />
         </div>
