@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Wrapper = styled.section`
   nav {
@@ -15,8 +15,8 @@ const Wrapper = styled.section`
     align-items: center;
     margin-top: -3rem;
   }
-  h1 {
-    font-weight: 700;
+  h2 {
+    font-weight: 600;
     span {
       color: var(--primary-500);
     }
@@ -46,5 +46,5 @@ const Wrapper = styled.section`
       display: block;
     }
   }
-`;
-export default Wrapper;
+`
+export default Wrapper
