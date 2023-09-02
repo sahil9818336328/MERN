@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Wrapper = styled.div`
   position: relative;
@@ -6,7 +6,8 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0 0.5rem;
+    gap: 0 0.8rem;
+    padding: 0.5rem 1rem;
   }
   .img {
     width: 25px;
@@ -39,6 +40,6 @@ const Wrapper = styled.div`
     width: 100%;
     height: 100%;
   }
-`;
+`
 
-export default Wrapper;
+export default Wrapper

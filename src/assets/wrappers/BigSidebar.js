@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Wrapper = styled.aside`
   display: none;
@@ -24,7 +24,11 @@ const Wrapper = styled.aside`
       height: 6rem;
       display: flex;
       align-items: center;
-      padding-left: 2.5rem;
+      justify-content: center;
+
+      .logo h3 {
+        font-size: 1.8rem;
+      }
     }
     .nav-links {
       padding-top: 2rem;
@@ -42,7 +46,7 @@ const Wrapper = styled.aside`
     }
     .nav-link:hover {
       padding-left: 3rem;
-      color: var(--primary-500);
+      color: var(--primary-100);
       transition: var(--transition);
     }
     .icon {
@@ -58,5 +62,5 @@ const Wrapper = styled.aside`
       background: var(--background-color);
     }
   }
-`;
-export default Wrapper;
+`
+export default Wrapper

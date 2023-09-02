@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Wrapper = styled.aside`
   @media (min-width: 992px) {
@@ -56,7 +56,7 @@ const Wrapper = styled.aside`
     transition: var(--transition);
   }
   .nav-link:hover {
-    color: var(--primary-500);
+    color: var(--primary-100);
   }
   .icon {
     font-size: 1.5rem;
@@ -67,5 +67,5 @@ const Wrapper = styled.aside`
   .active {
     color: var(--primary-500);
   }
-`;
-export default Wrapper;
+`
+export default Wrapper
